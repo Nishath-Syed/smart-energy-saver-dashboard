@@ -16,4 +16,12 @@ A simulated IoT dashboard built with the MERN stack to manage devices, automate 
 - **Database**: MongoDB
 - **Other**: Axios, CORS, Body-parser
 
+Run the frontend:
+**npm start**
+
+
+Run the backend:
+**node index.js**
+**node simulator.js**
+
 
