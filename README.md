@@ -4,11 +4,10 @@ A simulated IoT dashboard built with the MERN stack to manage devices, automate 
 
 ## 🚀 Features
 
-- 📋 Add and delete smart devices with energy consumption tracking
+- 📋 Add smart devices with energy consumption tracking
 - ⏰ Set schedules to automatically turn devices ON/OFF
 - 📊 View energy usage via bar and pie charts (using Recharts)
 - ⚠️ Alert system for high usage (e.g., > 20 kWh)
-- 🔁 Real-time updates simulated with periodic polling
 
 ## 🛠️ Tech Stack
 
