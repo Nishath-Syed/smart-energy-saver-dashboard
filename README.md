@@ -21,7 +21,7 @@ Run the frontend:
 
 
 Run the backend:
-**node index.js**
+**node index.js** and
 **node simulator.js**
 
 
