@@ -48,23 +48,6 @@ function App() {
     fetchSchedules();
   };
 
-  /*const deleteDevice = async (id) => {
-    
-    const confirm = window.confirm("Are you sure you want to delete this device and its schedules?");
-    if (!confirm) return;
-  
-    try {
-      
-      await axios.delete(`http://localhost:5000/api/devices/${id}`);
-      fetchDevices();
-      fetchSchedules();
-    } catch (error) {
-      alert("Failed to delete device. Check console for details.");
-      console.error("Delete error:", error);
-    }
-  };*/
-  
-
   return (
     <div style={{ padding: "2rem", fontFamily: "Arial" }}>
       <h2>Smart Energy Saver Dashboard</h2>
@@ -144,13 +127,6 @@ function App() {
                 {device.totalUsageToday.toFixed(3)}
                 {device.totalUsageToday >= 20 && " ⚠️"}
               </td>
-              {/*<td>
-              <button onClick={() => {
-  console.log("Deleting device with id:", device._id);
-  deleteDevice(device._id);
-}}>🗑️ Delete</button>
-
-              </td>*/}
             </tr>
           ))}
         </tbody>
